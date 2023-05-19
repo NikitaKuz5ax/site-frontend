@@ -93,7 +93,7 @@ function sendFeedback() {
         message: messageValue
     };
 
-    fetch('https://express-server-production-7efb.up.railway.app/feedback', {
+    fetch('https://kuznetsov-backend-2hyn57cru-emilmarkov.vercel.app/feedback', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
