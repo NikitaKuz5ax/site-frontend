@@ -1,0 +1,68 @@
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #d81d1d;
+}
+
+.phone-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #FF7400;
+    color: #000000;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #894b17;
+}
+
+.text1-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+.text2-text {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.test_button {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: #f19253;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.test_button:hover {
+    background-color: #cc6a29;
+}
