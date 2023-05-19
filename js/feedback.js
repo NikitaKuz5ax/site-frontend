@@ -1,6 +1,7 @@
 const form = document.getElementById('feedback-form');
 
 form.addEventListener('submit', function(event) {
+    event.preventDefault();
     if (validateForm()) {
         // Если форма валидна, можно выполнить действия отправки данных
         sendFeedback();
